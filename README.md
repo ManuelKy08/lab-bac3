@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="BAC3.png" alt="Preview Aplikasi LAB BAC #3" style="max-width:100%; border-radius:14px; border:1px solid #e5e7eb;">
+  <img src="BAC9.png" alt="Preview Aplikasi LAB BAC #3" style="max-width:100%; border-radius:14px; border:1px solid #e5e7eb;">
   <h1>🧩 LAB-RED Team — Broken Access Control (Bagian 3)</h1>
   <p><b>Tugas Kuliah Keamanan Web</b> · dibuat oleh <b>kikikokok</b></p>
   <p>PHP 8 + MariaDB · OWASP Top 10 Web 2021 — <b>A01 Broken Access Control</b></p>
