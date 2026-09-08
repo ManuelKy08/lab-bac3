@@ -1,0 +1,7 @@
+=== CURICULUM VITAE ===
+Nama     : Budi Santoso
+NIK      : 3201012345670001
+Alamat   : Jl. Melati 12, Jakarta
+Telepon  : 0812-1111-2222
+Email    : budi.santoso@gmail.com
+Catatan  : (privat) terdaftar sebagai karyawan tetap sejak 2021.

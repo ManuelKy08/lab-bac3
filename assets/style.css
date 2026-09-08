@@ -1,0 +1,137 @@
+/* ============================================================
+   LAB BAC #3 - Stylesheet (Tugas Kuliah) — watermark: kikikokok
+   ============================================================ */
+:root {
+  --hitam: #111827;
+  --abu: #6b7280;
+  --garis: #e5e7eb;
+  --biru: #2563eb;
+  --merah: #dc2626;
+  --hijau: #16a34a;
+  --kuning: #f59e0b;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+  background: #f8fafc;
+  color: var(--hitam);
+  line-height: 1.55;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.07;
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="420" height="420"%3E%3Ctext x="50" y="200" font-size="34" font-weight="800" fill="%232563eb" transform="rotate(-28 50 200)" font-family="Arial"%3Ekikikokok%3C/text%3E%3C/svg%3E');
+}
+
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+
+.topbar {
+  background: #111827;
+  color: #fff;
+  padding: 12px 0;
+}
+.topbar .wrap { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.topbar a { color: #fff; text-decoration: none; }
+.topbar nav a { margin-left: 14px; opacity: .85; color:#fff; }
+.topbar nav a:hover { opacity: 1; }
+.logo b { color: var(--kuning); }
+
+.card {
+  background: #fff;
+  border: 1px solid var(--garis);
+  border-radius: 14px;
+  padding: 20px;
+  margin: 18px 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,.05);
+}
+.card h2 { margin-top: 0; }
+
+.btn {
+  display: inline-block;
+  background: var(--biru);
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn.merah { background: var(--merah); }
+.btn.hijau { background: var(--hijau); }
+.btn.kecil { padding: 5px 10px; font-size: 12px; }
+
+table.tbl { width: 100%; border-collapse: collapse; }
+.tbl th, .tbl td { border: 1px solid var(--garis); padding: 8px 10px; text-align: left; font-size: 14px; }
+.tbl th { background: #f1f5f9; }
+
+.badge {
+  display: inline-block; padding: 2px 10px; border-radius: 999px;
+  font-size: 12px; font-weight: 700;
+}
+.badge.admin { background: #fee2e2; color: var(--merah); }
+.badge.staf { background: #fef3c7; color: #b45309; }
+.badge.kepala { background: #dcfce7; color: var(--hijau); }
+
+code, pre {
+  background: #f1f5f9;
+  font-size: 13px;
+}
+code { padding: 1px 6px; border-radius: 6px; }
+pre  { padding: 10px 12px; border-radius: 8px; overflow-x: auto; }
+
+.notice {
+  border-left: 4px solid var(--kuning);
+  background: #fffbeb;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.danger {
+  border-left: 4px solid var(--merah);
+  background: #fef2f2;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.ok-box {
+  border-left: 4px solid var(--hijau);
+  background: #f0fdf4;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+input, select, textarea {
+  display: block;
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid var(--garis);
+  border-radius: 8px;
+  font-size: 14px;
+  margin: 6px 0 14px;
+}
+label { font-size: 13px; font-weight: 600; }
+
+.muted { color: var(--abu); font-size: 13px; }
+
+.footer {
+  margin-top: 40px;
+  padding: 18px 0;
+  text-align: center;
+  color: var(--abu);
+  font-size: 13px;
+  border-top: 1px solid var(--garis);
+}
+.footer b { color: var(--kuning); }
+
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
+@media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }

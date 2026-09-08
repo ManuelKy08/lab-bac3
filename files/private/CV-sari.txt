@@ -1,0 +1,7 @@
+=== CURICULUM VITAE ===
+Nama     : Sari Staf
+NIK      : 320112345678900002
+Alamat   : Jl. Anggrek 88, Bekasi
+Telepon  : 0813-3333-4444
+Email    : sari.staf@gmail.com
+Catatan  : (privat) staff kasir, join 2023.
